@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:minHeight="@dimen/list_item_height"
+    android:background="@color/tan_background">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        >
+
+    </ImageView>
+    <LinearLayout
+        android:id="@+id/textContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/category_numbers">
+    <TextView
+        android:id="@+id/defaultword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="one"
+        android:layout_marginLeft="16dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@android:color/white">
+    </TextView>
+    <TextView
+        android:id="@+id/miwokword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="lutti"
+        android:layout_marginLeft="16dp"
+        android:paddingTop="2dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@android:color/white">>
+
+    </TextView>
+
+
+</LinearLayout>
+</LinearLayout>
